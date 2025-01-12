@@ -1,10 +1,10 @@
 <?php
 session_start();
 
-$servername = "mariadb.vamk.fi";
-$username = "e2203076";
-$password = "uGeEFE2YmuF";
-$database = "e2203076_health";
+$servername = "******";
+$username = "*****";
+$password = "******";
+$database = "******";
 
 // Creating connection to the database
 $conn = new mysqli($servername, $username, $password, $database);
